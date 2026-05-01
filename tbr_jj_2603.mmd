@@ -1,34 +1,37 @@
 gantt
     title JJ's TBR Mar'26
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d %b
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
     tickInterval 1week
+    
+    section Classics
+    Blood Meridian                :a1, 2026-04-13, 2.5w
 
-    section Classics 
-    Blood Meridian             :a1, 2026-04-13, 2.5w
+    section New Insert
+    Of Mice and Men               :a_new1, after a1, 1.5w
+    11/22/63                      :a_new2, after a_new1, 4.5w
 
     section Dostoyevsky 1
-    Notes from the Underground         :a2, after a1, 1.5w
-    Crime and Punishment               :a3, after a2, 3w
+    Notes from the Underground    :a2, after a_new2, 1.5w
+    Crime and Punishment          :a3, after a2, 3w
 
     section Challenges
-    Burn Down the Masters' House:   a4, after a3, 1.2w
+    Burn Down the Masters' House  :a4, after a3, 1.2w
 
     section Camus Finale
-    El Hombre Rebelde        :a12, after a4, 2.5w
-    Exilio y el Reino        :a13, after a12, 1.2w
-    Happy Death              :a14, after a13, 1.2w
-   
+    El Hombre Rebelde             :a12, after a4, 2.5w
+    Exilio y el Reino             :a13, after a12, 1.2w
+    Happy Death                   :a14, after a13, 1.2w
+
     section Dostoyevsky 2
-    Of Mice & Men              :a15, after a14, 1.5w
-    White Nights               :a16, after a15, 1.2w
-    The Brothers Karamazov     :a17, after a16, 5w
-    %% Demons                  :a20, after a19, 5w
+    White Nights                  :a16, after a14, 1.2w
+    The Brothers Karamazov        :a17, after a16, 5w
+    %% Demons                     :a20, after a19, 5w
 
     section Red Rising (Books 4-6)
-    %%Iron Gold                  :a21, after a20, 2w
-    %%Dark Age                   :a22, after a21, 3w
-    %%Light Bringer              :a23, after a22, 3w
+    %% Iron Gold                  :a21, after a20, 2w
+    %% Dark Age                   :a22, after a21, 3w
+    %% Light Bringer              :a23, after a22, 3w
 
     section Red God (Projected)
-    %%Red God Release (est. late 2026) :milestone, 2026-11-15, 1d
+    %% Red God Release (est. late 2026) :milestone, 2026-11-15, 1d
